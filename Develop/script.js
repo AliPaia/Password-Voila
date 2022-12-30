@@ -1,15 +1,8 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-function generatePassword() {
-  console.log("Clicked on Button")
-
-  
-  return "New Password Presented"
-}
-
-  // Write password to the #password input
-  function writePassword() {
+// Write password to the #password input
+function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
